@@ -9,4 +9,13 @@ public class Test {
     void testMax(int[] nums){
         if (nums.length > 5) System.out.println("元素大于5个！");
     }
+
+    String showS11Winner(String team){
+        if (team != null && team.equals("DK")){
+            return "DK 冠军！";
+        }else {
+            return team + " 没有拿到冠军！";
+        }
+
+    }
 }
